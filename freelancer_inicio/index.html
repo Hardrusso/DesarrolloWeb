@@ -100,42 +100,47 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus blanditiis vel quibusdam explicabo laudantium totam voluptas odit aperiam placeat, quis rerum rem aut neque? Doloribus accusamus ipsum cumque itaque aliquid!</p>
             </section>   
         </div><!-- .servicios -->    
-   </main> 
    
-   <section>
-        <h2>Contacto</h2>
-        <form action="">
-            <fieldset>
-                <legend>Contáctanos llenando todos los campos</legend>
-            
-                <div>
-                    <label for="nombre">Nombre</label>
-                    <input type="text" placeholder="Tu Nombre" name="nombre">
-                </div>
-
-                <div>
-                    <label for="telefono">Télefono</label>
-                    <input type="tel" placeholder="Tu telefono" name="telefono">
-                </div>
-
-                <div>
-                    <label for="correo">Correo</label>
-                    <input type="email" placeholder="Tu Correo" name="correo">
-                </div>
-
-                <div>
-                    <label for="mensaje">Mensaje</label>
-                    <textarea name="mensaje"></textarea>
-                </div>
-
-                <div>
-                    <input type="submit" value="Enviar">
-                </div>
-            </fieldset>
-        </form>
-   </section> 
    
-   <footer>
+        <section>
+                <h2>Contacto</h2>
+                <form class="formulario">
+                    <fieldset>
+                        <legend>Contáctanos llenando todos los campos</legend>
+                        
+                        <div class="contenedor-campos">
+                            <div class="campo">
+                                <label for="nombre">Nombre</label>
+                                <input class="input-text" type="text" placeholder="Tu Nombre" name="nombre">
+                            </div>
+
+                            <div class="campo">
+                                <label for="telefono">Télefono</label>
+                                <input class="input-text" type="tel" placeholder="Tu telefono" name="telefono">
+                            </div>
+
+                            <div class="campo">
+                                <label for="correo">Correo</label>
+                                <input class="input-text" type="email" placeholder="Tu Correo" name="correo">
+                            </div>
+
+                            <div class="campo">
+                                <label for="mensaje">Mensaje</label>
+                                <textarea class="input-text" name="mensaje"></textarea>
+                            </div>
+                            
+                        </div> <!-- .contenedor-campos-->
+
+                        <div class="alinear-derecha flex">
+                            <input class="boton w-sm-100" type="submit" value="Enviar">
+                        </div>
+
+                    </fieldset>
+                </form>
+        </section> 
+    </main> 
+   
+   <footer class="footer">
         <p>Todos los derechos reservados. Jonathan Caro</p>
    </footer>
 </body>
